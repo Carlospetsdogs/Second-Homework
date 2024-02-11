@@ -1,11 +1,40 @@
+header {
+    background-color: rgb(5, 96, 31);
+    height: 100%;
+}
+
+
 .hero-banner {
+    background: rgb(239, 239, 241) (68, 88, 120);
     background-image: url(./20e2d3e994192791aa30b506aa36eb41.jpg);
     background-size: cover;
     background-position: center;
-    color: purple;
+    color: rgb(5, 96, 31);
     text-align: center;
     padding: 100px 0;
     display: flex;
     justify-content: flex-end;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100% 
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(218, 208, 65);
+    text-align: left;
+    padding: 5px ;
+    
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 24px;
+    padding: 10px;
+    justify-content: space-around;
+
+    
 }
