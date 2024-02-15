@@ -157,7 +157,7 @@ p {
   }
 
   /*Selfie photo for the about me section*/
- .page-section#about-me h2 {
+ .page-section#about h2 {
     background-image: url("./Selfie.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
