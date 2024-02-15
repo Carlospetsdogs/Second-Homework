@@ -200,11 +200,23 @@ p {
   .flex-item div {
     background-color: var(--tertiary);
     padding: 8px 10px;
+    display: flex;
+    width: 300px;
+    height: 100px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 .flex-item h3 {
-  font-size: 1.6rem;
+  display: flex;
+  margin: 0;
   }
+
+  .flex-item span {
+    display: flex;
+}
 
 .contact address {
     display: flex;
@@ -236,20 +248,25 @@ p {
 
 /*Placeholder images until i finish more projects*/
 
-.First-Homework {
-    background-image: url(./Screenshot\ 2024-02-15\ at\ 10.26.42\ AM.png);
+.code-refactor {
+    background-image: url("./Screenshot.png");
 }
 
-.example-1 {
-    background-image: url(./istockphoto-1450094329-612x612.jpg);
+.example-1  {
+    background-image: url("https://afar.brightspotcdn.com/dims4/default/0e26212/2147483647/strip/true/crop/1000x528+0+70/resize/527x278!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.amazonaws.com%2Fbrightspot%2Ffe%2F72%2F3022f3ee4339b33ede9be6a3c564%2Fshutterstock-1104786284.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .example-2 {
-    background-image: url(./photo-1507525428034-b723cf961d3e.avif);
+    background-image: url("./beach-2.jpg");
+    background-size: cover;
 }
 
 .example-3 {
-    background-image: url(./last\ one.jpeg);
+    background-image: url("./beach-3.avif");
+    background-size: cover;
 }
 
 
