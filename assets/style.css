@@ -156,6 +156,7 @@ p {
     background-color: var(--quaterary) ;
   }
 
+  /*Selfie photo for the about me section*/
  .page-section#about-me h2 {
     background-image: url("./Selfie.jpeg");
     background-repeat: no-repeat;
@@ -227,6 +228,8 @@ p {
     color: var(--quaterary);
 }
 
+/* contact info section */
+
 .contact address {
     display: flex;
     flex-wrap: wrap;
@@ -278,6 +281,7 @@ p {
     background-size: cover;
 }
 
+/* End of portfolio section */
 
 @media screen and (max-width: 980px) {
     header {
