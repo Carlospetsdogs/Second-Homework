@@ -336,3 +336,37 @@ p {
       align-items: flex-start;
     }
   }
+
+  /* Added mobile optimizations here */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center; 
+    }
+
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+
+    header nav {
+      justify-content: center;
+    }
+
+    .page-section > h2,
+    .page-section > div {
+        flex: 0 0 100%;
+    }
+
+    .page-section > h2 {
+        border-right: none;
+        border-bottom: 5px solid var(--tertiary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+}
