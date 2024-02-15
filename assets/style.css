@@ -156,6 +156,13 @@ p {
     background-color: var(--quaterary) ;
   }
 
+ .page-section#about-me h2 {
+    background-image: url("./Selfie.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+ }
+
   .page-section > div {
     flex: 0 0 77%;
   }
@@ -198,7 +205,7 @@ p {
   }
 
   .flex-item div {
-    background-color: var(--tertiary);
+    background-color: var(--primary);
     padding: 8px 10px;
     display: flex;
     width: 300px;
@@ -212,10 +219,12 @@ p {
 .flex-item h3 {
   display: flex;
   margin: 0;
+  color: var(--quaterary);
   }
 
   .flex-item span {
     display: flex;
+    color: var(--quaterary);
 }
 
 .contact address {
@@ -260,12 +269,12 @@ p {
 }
 
 .example-2 {
-    background-image: url("./beach-2.jpg");
+    background-image: url("https://www.freewebheaders.com/wp-content/gallery/water-coast/water-coast-header-47622-800x200.jpg");
     background-size: cover;
 }
 
 .example-3 {
-    background-image: url("./beach-3.avif");
+    background-image: url("https://media.istockphoto.com/id/1346457565/photo/beautiful-tropical-island-panorama-white-sand-beach-turquoise-sea-water-ocean-waves-sun-blue.webp?b=1&s=170667a&w=0&k=20&c=yqjr057pRKXTcV65I9PUkUA96NWGfGZY3ongsRb_lts=");
     background-size: cover;
 }
 
@@ -299,7 +308,7 @@ p {
         margin-bottom: 20px;
         padding-bottom: 10px;
         text-align: left;
-        font-size: 7vw;
+        font-size: 7vw
     }
 }
 
